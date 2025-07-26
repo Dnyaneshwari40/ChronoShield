@@ -1,4 +1,4 @@
- **ChronoShield**
+ **ChronoShield : Guarding Every Second You Spend **
 ---
 **Overview**
 ---
