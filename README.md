@@ -1,32 +1,40 @@
  **ChronoShield**
-
+---
 **Overview**
-TabTrackGuard is a powerful Chrome extension designed to enhance focus and productivity by tracking the time you spend on each website and automatically blocking distracting sites based on a customizable blocklist. It uses background service workers to monitor activity and a secure token system to send log data to a backend server.
+---
+ChronoShield is a powerful and intelligent Chrome extension built to protect your focus and help you take control of your time online. It tracks the time you spend on each website, identifies distractions, and automatically blocks unproductive sites based on your customizable preferences. Whether you're a student battling digital distractions, a professional optimizing productivity, or just someone curious about your web usage patterns — ChronoShield is your digital shield against time waste.
 
-This tool is ideal for students, professionals, or anyone who wants to understand and optimize their web habits in real-time.
-
+---
  **Features**
- Track time spent on active tabs
+ ---
+ - Track time spent on active tabs
 
-Automatically block websites from a personal blocklist
+- Automatically block websites from a personal blocklist
 
- Secure token-based authentication
+ - Secure token-based authentication
 
- Works in the background using Chrome APIs
+ - Works in the background using Chrome APIs
 
- Sends time logs to your backend server via REST API
+ - Sends time logs to your backend server via REST API
 
- Detects tab switches and URL changes in real time
+ - Detects tab switches and URL changes in real time
+
+---
 
  **Technologies Used**
-JavaScript (ES6)
+ ---
+- Programming Language: JavaScript (ES6+)
 
-Chrome Extensions API
+- Platform: Chrome Extensions API (Manifest v3)
 
-Background Service Workers
+- Service Layer: Background Service Workers for tab tracking and event listening
 
-Fetch API for backend communication
+- Frontend (UI): HTML, CSS, Vanilla JS (for popup and options interface)
 
-Local Storage (chrome.storage.local)
+- Storage: chrome.storage.local for persisting user data (e.g., blocklist, settings)
 
-Token-based Auth (JWT-ready)
+- Networking: Fetch API for secure communication with backend (RESTful)
+
+- Security: Token-based Authentication (JWT-ready for protected endpoints)
+
+- Tools: Git, GitHub for version control, Chrome Developer Tools for debugging
